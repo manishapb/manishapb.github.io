@@ -7,15 +7,10 @@ function App() {
       <header className="App-header">
           Mansiha Pillai
       </header>
-      <><p>
-        <a href='https://github.com/manishapb'>Github</a>
-        <a href='https://www.linkedin.com/in/manisha-pillai/'>Linkedin</a>
-        <a href=''>CV</a>
-      </p>
-      </>
+      
       <div>
         <p>I am Software Engineer by profession and an artst at heart.</p>
-        <p>Some languges I've loved and currently use are:</p>
+        <p>Some languages I've loved and currently use are:</p>
         <ul>
           <li>Python</li>
           <li>ReactJS</li>
