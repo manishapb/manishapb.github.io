@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
           Manisha Pillai
       </header>
       <div className='App-logo'>
-        <img src='public/dharamshala2.png'></img>
+        <img src='dharamshala2.png'></img>
       </div>
       <div className='App-header'>
         <p>I am Software Engineer by profession and an artist at heart.</p>
