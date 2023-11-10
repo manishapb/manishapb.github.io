@@ -3,18 +3,21 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className='App'>
+      <header className='App-header'>
           Manisha Pillai
       </header>
-      
-      <div>
-        <p>I am Software Engineer by profession and an artst at heart.</p>
+      <div className='App-logo'>
+        <img src='public/dharamshala2.png'></img>
+      </div>
+      <div className='App-header'>
+        <p>I am Software Engineer by profession and an artist at heart.</p>
         <p>Some languages I've loved and currently use are:</p>
         <ul>
           <li>Python</li>
           <li>ReactJS</li>
           <li>Clojure</li>
+          <li>Typescript</li>
           </ul>
         <p>Previously worked in : Php, JS, NodeJS</p>
         <p>I'm currently looking for some interesting work. I have previously at 
@@ -25,7 +28,7 @@ function App() {
            <a href='https://www.helpshift.com/'></a>Helpshift</p>
       </div>
       <footer>
-      <p class="love">Made with <i class="icon ion-heart"></i> in React</p>
+      <p class='love'>Made with <i class='icon ion-heart'></i> in React</p>
       </footer>
     </div>
   );
