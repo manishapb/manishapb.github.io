@@ -1,12 +1,12 @@
 .App {
   text-align: center;
-  background-color: #2a2b2b;
+  background-color: #d2d3d3;
   min-height: 750px;
 }
 
-img {
- height: 200px;
- width: 200px;
+.profile-img {
+ height: 280px;
+ width: 280px;
  align-items: center;
 }
 
@@ -23,8 +23,12 @@ img {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
   margin: 20px;
 }
 
+
+.img-icon {
+  width: 30px;
+  height: 30px;
+}
 
