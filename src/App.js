@@ -8,22 +8,22 @@ function App() {
   const linkIcon = [{
     'name': 'Github',
     'link': 'https://github.com/manishapb/',
-    'icon': 'public/github.png'
+    'icon': 'github.png'
   },
   {
     'name': 'Linkedin',
-    'link': '',
-    'icon': ''
+    'link': 'https://www.linkedin.com/in/manisha-pillai',
+    'icon': 'linkedin.png'
   },
   {
     'name': 'CV',
-    'link': '',
-    'icon': ''
+    'link': 'Manisha Pillai - Resume.pdf',
+    'icon': 'cv.jpeg'
   },
   {
     'name': 'mail',
     'link': 'pillaimanisha77@gmail.com',
-    'icon': 'public/mail.png'
+    'icon': 'mail.png'
   }
 ];
   const links = linkIcon.map((i)=> <a href={i.link}>
@@ -40,7 +40,7 @@ function App() {
             </div>
             <div className="col-4">
               <br></br>
-              <img src='public/profilepic.png' className='rounded float-start'
+              <img src='profilepic.png' className='rounded float-start'
                 alt='profile pic'></img>
             </div>
             <div className="col-6">
