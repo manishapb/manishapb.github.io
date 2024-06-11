@@ -80,13 +80,6 @@ function App() {
               <a href='https://www.helpshift.com/' className='text-muted ms-1'>Helpshift</a></p>
           </div>
         </div>
-        <footer>
-          <br></br>
-          <div className='fs-8 mt-6'></div>
-          <p className='text-muted'>Made with <i className="bi bi-heart">
-          <img src='heart.svg' className='img'></img>
-          </i> in React</p>
-        </footer>
       </div>
     </>
   );
