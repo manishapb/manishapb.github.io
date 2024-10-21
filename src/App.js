@@ -1,51 +1,47 @@
-import { useState } from "react";
 import "./App.css";
+import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
 
   const langs = ["Python", "ReactJS", "Clojure"];
-  const linkIcon = [{
+  const linkIcons = [{
     "name": "Github",
     "link": "https://github.com/manishapb/",
-    "icon": "github.svg"
+    "icon": "fa fa-github"
   },
   {
     "name": "Linkedin",
     "link": "https://www.linkedin.com/in/manisha-pillai",
-    "icon": "linkedin.svg"
+    "icon": "fa fa-linkedin"
   },
   {
     "name": "CV",
     "link": "Manisha Pillai - Resume.pdf",
-    "icon": "file-pdf.svg"
+    "icon": "fa fa-file"
   },
   {
-    "name": "mail",
+    "name": "Mail",
     "link": "mailto:pillaimanisha77@gmail.com",
-    "icon": "envelope.svg"
-  }
-  ];
-  const links = linkIcon.map((i) => <a class="level-item pr-1" href={i.link}>
-    <img src={i.icon} className="img-icon" alt={i.name}></img></a>)
+    "icon": "fa fa-envelope"
+  }];
+
+  const links = linkIcons.map((x) =>
+    <a className="level-item" href={x.link} key={x.name}>
+      <span className="icon" title={x.name}>
+        <i className={x.icon}></i>
+      </span>
+    </a>)
+
   return (
     <>
-      <div className="App has-background-black-ter">
-        <section class="hero has-text-light">
-          <div class="hero-body">
-            <p class="title">Manisha Pillai</p>
-            <p class="subtitle">Software Engineer</p>
+      <div className="App">
+        <section className="hero has-text-light">
+          <div className="hero-body">
+            <p className="title">Manisha Pillai</p>
+            <p className="subtitle">Software Engineer</p>
           </div>
         </section>
 
-        <div className="block ">
-          <header className="App-header">
-          </header>
-        </div>
-        {/* <div class="media-left">
-          <figure class="image is-128x128">
-            <img src="profilepic.png" alt="Image" />
-          </figure>
-        </div> */}
         <div className="media-content">
           <div className="content">
             <p>
@@ -57,8 +53,19 @@ function App() {
             <nav className="level is-mobile mx-6">
               {links}
             </nav>
-            <p>
-              { }
+          </div>
+        </div>
+
+        <div className="content">
+          <br></br>
+          <p>Languages I"ve been working with:
+            <br></br>{(langs).join(", ")}
+          </p>
+          <div className="container">
+            <br></br>
+            <p>I have previously worked at
+              <a href="https://www.gobolt.in/" className="text-muted ms-1"> GoBOLT</a> and
+              <a href="https://www.knowlarity.com/" className="text-muted ms-1"> Knowlarity</a> and
             </p>
           </div>
         </div>
@@ -66,7 +73,7 @@ function App() {
         <div className="container fs-5">
           <br></br>
           <p>Languages I"ve been working with: 
-            <p></p>{(langs).join(", ")}</p>
+            <br></br>{(langs).join(", ")}</p>
           <div className="container">
             <br></br>
             <p>I have previously worked at 
@@ -74,7 +81,7 @@ function App() {
               <a href="https://www.knowlarity.com/" className="text-muted ms-1"> Knowlarity</a> and 
               <a href="https://www.graas.ai/" className="text-muted ms-1"> Shoptimize</a></p>
             <p>I have Master's in Computer Application from
-              <p></p>University of Pune which
+              <br></br>University of Pune which
               I wrapped up with a couple of
               internships at <a href="https://www.globant.com/" className="text-muted ms-1">Globant</a> and
               <a href="https://www.helpshift.com/" className="text-muted ms-1">Helpshift</a></p>
