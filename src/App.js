@@ -26,7 +26,7 @@ function App() {
   }];
 
   const links = linkIcons.map((x) =>
-    <a className="level-item" href={x.link} key={x.name}>
+    <a className="cell pl-6" href={x.link} key={x.name}>
       <span className="icon" title={x.name}>
         <i className={x.icon}></i>
       </span>
@@ -50,9 +50,9 @@ function App() {
               <br></br>
               I am Software Engineer. Exploring the world and life as a digital nomad.
             </p>
-            <nav className="level is-mobile mx-6">
+            <div className="container">
               {links}
-            </nav>
+            </div>
           </div>
         </div>
 
@@ -72,13 +72,13 @@ function App() {
 
         <div className="container fs-5">
           <br></br>
-          <p>Languages I"ve been working with: 
+          <p>Languages I"ve been working with:
             <br></br>{(langs).join(", ")}</p>
           <div className="container">
             <br></br>
-            <p>I have previously worked at 
-              <a href="https://www.gobolt.in/" className="text-muted ms-1"> GoBOLT</a> and 
-              <a href="https://www.knowlarity.com/" className="text-muted ms-1"> Knowlarity</a> and 
+            <p>I have previously worked at
+              <a href="https://www.gobolt.in/" className="text-muted ms-1"> GoBOLT</a> and
+              <a href="https://www.knowlarity.com/" className="text-muted ms-1"> Knowlarity</a> and
               <a href="https://www.graas.ai/" className="text-muted ms-1"> Shoptimize</a></p>
             <p>I have Master's in Computer Application from
               <br></br>University of Pune which
