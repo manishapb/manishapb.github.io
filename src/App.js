@@ -41,6 +41,7 @@ function App() {
             <p className="subtitle">Software Engineer</p>
           </div>
         </section>
+
         <div className="media-content">
           <div className="content">
             <p>
@@ -65,6 +66,19 @@ function App() {
             <p>I have previously worked at
               <a href="https://www.gobolt.in/" className="text-muted ms-1"> GoBOLT</a> and
               <a href="https://www.knowlarity.com/" className="text-muted ms-1"> Knowlarity</a> and
+            </p>
+          </div>
+        </div>
+
+        <div className="container fs-5">
+          <br></br>
+          <p>Languages I"ve been working with: 
+            <br></br>{(langs).join(", ")}</p>
+          <div className="container">
+            <br></br>
+            <p>I have previously worked at 
+              <a href="https://www.gobolt.in/" className="text-muted ms-1"> GoBOLT</a> and 
+              <a href="https://www.knowlarity.com/" className="text-muted ms-1"> Knowlarity</a> and 
               <a href="https://www.graas.ai/" className="text-muted ms-1"> Shoptimize</a></p>
             <p>I have Master's in Computer Application from
               <br></br>University of Pune which
