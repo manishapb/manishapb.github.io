@@ -3,7 +3,7 @@ import 'font-awesome/css/font-awesome.min.css';
 
 function App() {
 
-  const langs = ["Python", "ReactJS", "Clojure"];
+  const langs = ["Python", "Javascript", "Clojure", "Haskell"];
   const linkIcons = [{
     "name": "Github",
     "link": "https://github.com/manishapb/",
@@ -56,23 +56,9 @@ function App() {
           </div>
         </div>
 
-        <div className="content">
-          <br></br>
-          <p>Languages I"ve been working with:
-            <br></br>{(langs).join(", ")}
-          </p>
-          <div className="container">
-            <br></br>
-            <p>I have previously worked at
-              <a href="https://www.gobolt.in/" className="text-muted ms-1"> GoBOLT</a> and
-              <a href="https://www.knowlarity.com/" className="text-muted ms-1"> Knowlarity</a> and
-            </p>
-          </div>
-        </div>
-
         <div className="container fs-5">
           <br></br>
-          <p>Languages I"ve been working with: 
+          <p>Languages I've been working with: 
             <br></br>{(langs).join(", ")}</p>
           <div className="container">
             <br></br>
