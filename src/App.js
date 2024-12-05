@@ -23,6 +23,11 @@ function App() {
     "name": "Mail",
     "link": "mailto:pillaimanisha77@gmail.com",
     "icon": "fa fa-envelope"
+  },
+  {
+    "name": "Art",
+    "link": "https://manii.mmm.page/",
+    "icon": "fa fa-paint-brush"
   }];
 
   const links = linkIcons.map((x) =>
